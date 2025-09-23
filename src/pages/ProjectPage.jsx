@@ -103,7 +103,7 @@ const ProjectPage = ({ projectName = "Kikkerland", projectAbout = "A brief proje
             {/* Project Main Image */}
             <div className="w-full flex lg:h-screen justify-center px-4 lg:px-0">
             <img 
-                src={`/assets/${projectMainImg}`}
+                src={`./assets/${projectMainImg}`}
                 alt={`${projectName} main image`}
                 className="w-fit h-full object-contain rounded-xl shadow-xl"
             />
