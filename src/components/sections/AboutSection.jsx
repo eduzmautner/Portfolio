@@ -1,6 +1,8 @@
+import { getAssetUrl } from '../../data/assets';
+
 const AboutSection = () => {
     return (
-        <section id="aboutSection" className="flex w-full h-fit lg:h-screen items-center justify-center bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(./assets/AB1.jpg)` }}>
+        <section id="aboutSection" className="flex w-full h-fit lg:h-screen items-center justify-center bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${getAssetUrl('AB1.jpg')})` }}>
             <div className="w-full m-4 lg:w-280 flex flex-col lg:flex-row backdrop-blur-2xl bg-stone-900/15 shadow-xl">
                 
                 <div className="flex flex-1 bg-amber-100 border-[#7F7F7F] border-1">
@@ -11,8 +13,8 @@ const AboutSection = () => {
                         muted 
                         playsInline
                     >
-                        <source src="./assets/3dScan.mov" type="video/mp4" />
-                        <source src="./assets/3dScan.mov" type="video/quicktime" />
+                        <source src={getAssetUrl('3dScan.mov')} type="video/mp4" />
+                        <source src={getAssetUrl('3dScan.mov')} type="video/quicktime" />
                         Your browser does not support the video tag.
                     </video>
                 </div>

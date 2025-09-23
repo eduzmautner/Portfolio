@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetUrl } from '../../data/assets';
 
 const SubprojectSection = ({ subproject, index }) => {
   return (
@@ -26,7 +27,7 @@ const SubprojectSection = ({ subproject, index }) => {
           {subproject.images.map((image, imageIndex) => (
             <img 
               key={imageIndex}
-              src={`../assets/${image}`}
+              src={getAssetUrl(image)}
               alt={`${subproject.title} image ${imageIndex + 1}`}
               className="w-full h-auto object-cover rounded-xl shadow-xl"
             />

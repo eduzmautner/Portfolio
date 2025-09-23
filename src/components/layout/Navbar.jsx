@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { getAssetUrl } from '../../data/assets';
 
 const Navbar = () => {
   const [currentTime, setCurrentTime] = useState('');
@@ -56,7 +57,7 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full flex flex-row justify-between items-center border-b border-[#7F7F7F] bg-white/0 z-50">
       {/* Logo Section */}
       <div className="collapse lg:visible w-0 lg:w-16 lg:h-16 lg:p-2.5 border-r border-b border-[#7F7F7F] flex justify-center items-center animate-hue-shift">
-        <img src="url(./assets/EZMlogoWhite.svg)" alt="EZM Logo" className="w-13 h-13" />
+        <img src={getAssetUrl('EZMlogoWhite.svg')} alt="EZM Logo" className="w-13 h-13" />
       </div>
 
       {/* Right Section */}

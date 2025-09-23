@@ -4,6 +4,7 @@ import Tag from '../components/ui/Tag';
 import BackButton from '../components/ui/BackButton';
 import SubprojectSection from '../components/sections/subprojectsSection';
 import { TypewriterRich, RenderRunsForSizer } from '../components/ui/TypewriterRich';
+import { getAssetUrl } from '../data/assets';
 
 const ProjectPage = ({ projectName = "Kikkerland", projectAbout = "A brief project introduction to exoplain its content.", projectMainImg = "./assets/CLM1.jpg", tags = ["Fusion 360", "3D Scanning", "Rhino 8"], gridImages = ["CLM2.jpg", "CLM3.jpg"], subprojects = [] }) => {
   
@@ -103,7 +104,7 @@ const ProjectPage = ({ projectName = "Kikkerland", projectAbout = "A brief proje
             {/* Project Main Image */}
             <div className="w-full flex lg:h-screen justify-center px-4 lg:px-0">
             <img 
-                src={`../assets/${projectMainImg}`}
+                src={getAssetUrl(projectMainImg)}
                 alt={`${projectName} main image`}
                 className="w-fit h-full object-contain rounded-xl shadow-xl"
             />

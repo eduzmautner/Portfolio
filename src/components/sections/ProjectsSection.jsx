@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { getAssetUrl } from '../../data/assets';
 
 
 const ProjectsSection = () => {
@@ -74,7 +75,7 @@ const ProjectsSection = () => {
         {/* media container*/}
         <div 
           className="h-120 2xl:h-150 lg:border-b lg:border-[#7F7F7F] bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(./assets/${project.thumbnail})` }}
+          style={{ backgroundImage: `url(${getAssetUrl(project.thumbnail)})` }}
         >
           {/* media goes here */}
         </div>
