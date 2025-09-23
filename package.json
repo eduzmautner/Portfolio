@@ -1,13 +1,15 @@
 {
   "name": "my-portfolio",
+  "homepage": "https://eduzmautner.github.io/Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "postbuild": "node -e \"const fs=require('fs');fs.copyFileSync('docs/index.html','docs/404.html');fs.writeFileSync('docs/.nojekyll','');\"",
+    "preview": "vite preview",
+    "deploy": "npm run build && git add docs && git commit -m \"Build site to /docs\" || echo no changes && git push"
   },
   "dependencies": {
     "globe.gl": "^2.44.0",

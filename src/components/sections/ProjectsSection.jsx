@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+
 const ProjectsSection = () => {
   // Function to create a new project
   const createProject = (thumbnailImg, projectTitle, tags, projectPath = null) => {
@@ -73,7 +74,7 @@ const ProjectsSection = () => {
         {/* media container*/}
         <div 
           className="h-120 2xl:h-150 lg:border-b lg:border-[#7F7F7F] bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(/src/assets/${project.thumbnail})` }}
+          style={{ backgroundImage: `url(/assets/${project.thumbnail})` }}
         >
           {/* media goes here */}
         </div>
