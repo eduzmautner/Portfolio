@@ -26,7 +26,7 @@ const SubprojectSection = ({ subproject, index }) => {
           {subproject.images.map((image, imageIndex) => (
             <img 
               key={imageIndex}
-              src={`./assets/${image}`}
+              src={`url(./assets/${image})`}
               alt={`${subproject.title} image ${imageIndex + 1}`}
               className="w-full h-auto object-cover rounded-xl shadow-xl"
             />
