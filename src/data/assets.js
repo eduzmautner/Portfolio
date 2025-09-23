@@ -1,38 +1,44 @@
-// Google Drive asset URLs
-// Replace these FILE_IDs with your actual Google Drive file IDs
+// GitHub Issues asset URLs
+// All images hosted via GitHub Issues for reliable access
 export const assets = {
   // Project thumbnails
-  'CLM1.jpg': 'https://drive.google.com/uc?export=view&id=1AKNmFJ75ttXxfMohtMHVfqUp8J1QDLg5',
-  'BG3.png': 'https://drive.google.com/uc?export=view&id=1GhLieHf46fzvvtJAF1oB2XV5UwaqUVI0',
-  'MH5.png': 'https://drive.google.com/1XxSDoVkLi8v2d37c7CePG3V4EKz62C1z',
-  'IMG_0969.jpg': 'https://drive.google.com/uc?export=view&id=1CvJ0OrxkOVJPwvaTgY9yPwvYyhY74Q_J',
+  'CLM1.jpg': 'https://github.com/user-attachments/assets/7ef7663f-e616-4299-9b98-da105b43b92b',
+  'BG3.png': 'https://github.com/user-attachments/assets/304227f4-e54f-4649-be13-c2df63de29b3',
+  'MH5.png': 'https://github.com/user-attachments/assets/ab0c6247-676e-44ca-a18e-3c8595d506ad',
+  'IMG_0969.jpg': 'https://github.com/user-attachments/assets/6cbf3dae-7f93-49c7-8b10-07b0eda3dcdd',
   
   // About section
-  'AB1.jpg': 'https://drive.google.com/uc?export=view&id=1YuHGkInRuNN8tYe6t_J7VETwH6A1SCCh',
-  '3dScan.mov': 'https://drive.google.com/uc?export=view&id=1BNmPz3kZvM8WdJJEAJAX2Kslrg9ajQcL',
+  'AB1.jpg': 'https://github.com/user-attachments/assets/7627c90e-2bb9-4731-a7a9-bfeef989a5e4',
+  '3dScan.mov': 'https://github.com/user-attachments/assets/76a8c44b-1c4e-41f4-a303-3a1048ec9df2',
   
   // Kikkerland project images
-  'CB1.jpg': 'https://drive.google.com/uc?export=view&id=1sT6wMsGBx3Dy-JYP5PZoAo_eFROGaOzJ',
-  'CB2.jpg': 'https://drive.google.com/uc?export=view&id=1KrcjXw-qi-ffEOl8oFU974sTHr2s3VV3',
-  'CB3.jpg': 'https://drive.google.com/uc?export=view&id=1fZg4z7wQjh4VGnzzpiQAbn3gzR17QF2k',
-  'FP1.jpg': 'https://drive.google.com/uc?export=view&id=1hiGjTrGJsZijxhkAOqRA-dAnIJUeyHqR',
-  'FP2.jpg': 'https://drive.google.com/uc?export=view&id=1tjgzQYlO5WGsPOlrGjqiYQmNKsiQ8nOC',
-  'FP3.jpg': 'https://drive.google.com/uc?export=view&id=16ShQXAfOJYwTTXK2b0q5Gu9qNXHQYXMO',
-  'FP4.jpg': 'https://drive.google.com/uc?export=view&id=1bz-oyIqV5EJH8gahE-NrkkAmiSMt73bw',
-  'SP1.jpg': 'https://drive.google.com/uc?export=view&id=1dbGBymaTNIINCk6muNzmN-vIWv2BYRMF',
-  'SP2.jpg': 'https://drive.google.com/uc?export=view&id=1pj7ETXR_zP_c6DAUhvLBrKfDRjD733s4',
-  'SP3.png': 'https://drive.google.com/uc?export=view&id=1b7xSh1cTKv5sYbI9NE2vdP65GRUuIUlE',
-  'CLM2.jpg': 'https://drive.google.com/uc?export=view&id=1DMieRWb7aoPv8BgMjdQmxKJinZ3fBzr7',
-  'CLM3.jpg': 'https://drive.google.com/uc?export=view&id=1N5Z0kJEPqmiA391qX9jwCp0vnejqLXoC',
-  'CLM4.jpg': 'https://drive.google.com/uc?export=view&id=1YnsBf18_4fDg4w3TOH88LaR6ljqvtFZH',
-  'CLM5.jpg': 'https://drive.google.com/uc?export=view&id=1HPGO9dJg00Cawf2kyoppaQ_2ggSAvQ-H',
-  'CLM6.jpg': 'https://drive.google.com/uc?export=view&id=146as4Lc_NJCaO877xzmKUadZBzeSxA0e',
+  'CB1.jpg': 'https://github.com/user-attachments/assets/db786cae-7cd0-4b36-9004-e7d23c4618a2',
+  'CB2.jpg': 'https://github.com/user-attachments/assets/8760e595-642c-413f-9ead-87189e9e496b',
+  'CB3.jpg': 'https://github.com/user-attachments/assets/0ae3780e-adc0-4cef-b694-e66b22223579',
+  'FP1.jpg': 'https://github.com/user-attachments/assets/1f5e4886-7aac-42d6-8c6f-d7bf84235d36',
+  'FP2.jpg': 'https://github.com/user-attachments/assets/78f1b9c3-2d9e-4118-b515-8d04400189db',
+  'FP3.jpg': 'https://github.com/user-attachments/assets/f224a4eb-2527-438e-a2d3-a474997cf794',
+  'FP4.jpg': 'https://github.com/user-attachments/assets/27350153-ae4a-4d16-bf41-2109c645a741',
+  'SP1.jpg': 'https://github.com/user-attachments/assets/35c93978-a89f-4511-b11e-c7d7b36697b4',
+  'SP2.jpg': 'https://github.com/user-attachments/assets/fb76ed26-26a5-44a8-8910-f007cd73ddfb',
+  'SP3.png': 'https://github.com/user-attachments/assets/f7a0a698-ca53-49c2-afd0-8583f69a783f',
+  'CLM2.jpg': 'https://github.com/user-attachments/assets/28b8a428-2290-413e-b916-085b7ca875c4',
+  'CLM3.jpg': 'https://github.com/user-attachments/assets/39166b36-ee71-4f06-831d-cdfc946d90fa',
+  'CLM4.jpg': 'https://github.com/user-attachments/assets/9c4f4697-e6b9-4b89-b4ae-89f33a37c1b9',
+  'CLM5.jpg': 'https://github.com/user-attachments/assets/88b70e4f-9572-4493-8c39-2c01cadf3ca5',
+  'CLM6.jpg': 'https://github.com/user-attachments/assets/63a08e56-a267-4b95-bd06-f4000be90fc1',
   
   // Logo
-  'EZMlogoWhite.svg': 'https://drive.google.com/uc?export=view&id=1AqKIc-VuDGXYdLdQWGBvt0C1tCbK7ebL',
+  'EZMlogoWhite.svg': 'https://github.com/user-attachments/assets/6d6a906e-e1fc-4f41-9525-eb5c8e76e2e5',
 };
 
-// Helper function to get asset URL
+// Helper function to get asset URL with fallback
 export const getAssetUrl = (filename) => {
-  return assets[filename] || `./assets/${filename}`; // fallback to local if not found
+  // Try Google Drive first, fallback to local assets
+  const driveUrl = assets[filename];
+  if (driveUrl && !driveUrl.includes('YOUR_')) {
+    return driveUrl;
+  }
+  // Fallback to local assets
+  return `./assets/${filename}`;
 };
